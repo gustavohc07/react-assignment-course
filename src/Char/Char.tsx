@@ -16,7 +16,7 @@ const char = (props: Char) => {
 const charStyle = {
     display: 'inline-block',
     padding: '16px',
-    'text-align': 'center',
+    "text-align": 'center',
     margin: '16px',
     border: '1px solid black'
 }

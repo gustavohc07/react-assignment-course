@@ -3,10 +3,20 @@
 Esse projeto é referente à segunda tarefa do curso. Embora o curso não coloque
 para utilizar Typescript, irei implementar durante todo o curso como uma forma de aprendizado a mais.
 
+PS*: Não utilizei gitflow nesse projeto. Utilizarei nos próximos juntamente com "Conventional Commits".
+
 ## Tecnologias
 
 - ReactJS
 - TypeScript
+
+## Como funciona?
+
+Usuário entrará no aplicativo e irá digitar no input da página. Ao digitar, irá aparecer
+cada letra da frase digitada.
+
+Ao clicar em uma letra irá, automaticamente, apagá-la dos cards e do input em que o usuário está
+digitando.
 
 ##O que implementarei futuramente
 
