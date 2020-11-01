@@ -5,6 +5,9 @@ para utilizar Typescript, irei implementar durante todo o curso como uma forma d
 
 PS*: Não utilizei gitflow nesse projeto. Utilizarei nos próximos juntamente com "Conventional Commits".
 
+PS**: Utilizei componentes de classe para acostumar com a sintaxe e como a maioria das soluções na internet
+estão com componentes de classe, achei importante utilizá-lo. 
+
 ## Tecnologias
 
 - ReactJS
@@ -24,6 +27,7 @@ digitando.
 - Estilizar
 - Refatorar, assim que escrever os testes, para verificar se estou seguindo boas
 práticas.
+- Adicionar versão com React Hooks.
 
 ### Executando o projeto
 
