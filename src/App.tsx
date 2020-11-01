@@ -16,7 +16,7 @@ class App extends Component {
         const stringArr: string[] = value.split('')
         const stringLength: number = stringArr.length
 
-        const charsArr = stringArr.map((char, index) => {
+        const charsArr: { id: number, letter: string }[] = stringArr.map((char, index) => {
             return { id: index, letter: char}
         })
 
@@ -29,9 +29,9 @@ class App extends Component {
     }
 
     deleteCharacterHandler = (charIndex: number) => {
-        const chars = [...this.state.chars]
+        const chars: { id: number, letter: string }[] = [...this.state.chars]
         chars.splice(charIndex, 1)
-        const newInputTextArr = chars.map(char => {
+        const newInputTextArr: string[] = chars.map(char => {
             return char.letter
         })
         this.setState({
